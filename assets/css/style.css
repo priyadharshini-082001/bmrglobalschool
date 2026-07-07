@@ -8637,7 +8637,6 @@ Hero Section
     object-fit:cover;
     border-radius:35px;
     display:block;
-    box-shadow:0 15px 40px rgba(0,0,0,0.15);
 }
 
 .video-badge{
@@ -8867,6 +8866,7 @@ Hero Section
 .enquiry-btn:hover {
   background: #0a2a6c;
   transform: translateY(-50%) scale(1.03);
+  color: white;
 }
 
 
