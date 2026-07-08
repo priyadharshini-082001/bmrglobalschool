@@ -9597,8 +9597,29 @@ Hero Section
     }
 }
 
+
+.gallery-item{
+    position:relative;
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.gallery-tag{
+    position:absolute;
+    left:15px;
+    bottom:15px;
+    background:rgb(21, 6, 107);
+    color:#ffffff;
+    padding:8px 18px;
+    border-radius:30px;
+    font-size:15px;
+    font-weight:600;
+    backdrop-filter:blur(5px);
+}
+
+
 .gallery-section{
-    padding:100px 0;
+    padding:60px 0;
     background:#f8fbff;
 }
 
@@ -9728,7 +9749,7 @@ Hero Section
     }
 
     .section-title h2{
-        font-size:32px;
+        font-size:25px;
     }
 }
 
@@ -10141,7 +10162,7 @@ Hero Section
     }
 
     .breadcrumb-content h1{
-        font-size:30px;
+        font-size:20px;
     }
 }
 
@@ -10151,7 +10172,7 @@ Hero Section
     }
 
     .breadcrumb-content h1{
-        font-size:24px;
+        font-size:16px;
     }
 
     .sub-title{
