@@ -10179,3 +10179,179 @@ Hero Section
         font-size:12px;
     }
 }
+
+
+/*==============================
+Mandatory Disclosure Section
+==============================*/
+
+.mandatory-section{
+    padding:30px 0;
+    background:#f5f8ff;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title span{
+    display:inline-block;
+    padding:8px 18px;
+    background:#e8efff;
+    color:#062350;
+    border-radius:30px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.section-title h2{
+    font-size:38px;
+    color:#0a2d62;
+    margin-bottom:15px;
+}
+
+.section-title p{
+    max-width:700px;
+    margin:auto;
+    color:#000000;
+    line-height:1.8;
+}
+
+.table-responsive{
+    overflow-x:auto;
+    border-radius:15px;
+}
+
+.mandatory-table{
+    width:100%;
+    border-collapse:collapse;
+    background:#fff;
+}
+
+.mandatory-table thead{
+    background:linear-gradient(135deg,#0d47a1,#072d58);
+}
+
+.mandatory-table thead th{
+    color:#fff;
+    padding:18px;
+    text-align:center;
+    font-size:17px;
+}
+
+.mandatory-table td{
+    padding:18px;
+    border-bottom:1px solid #ececec;
+    text-align:center;
+    color:#000000;
+    transition:.3s;
+}
+
+.mandatory-table tbody tr:nth-child(even){
+    background:#f8fbff;
+}
+
+.mandatory-table tbody tr:hover{
+    background:#edf5ff;
+}
+
+.mandatory-table tbody tr:hover td{
+    color:#0d47a1;
+}
+
+.mandatory-table a{
+    display:inline-block;
+    padding:10px 18px;
+    background:#053265;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.mandatory-table a:hover{
+    background:#060f70;
+    transform:translateY(-3px);
+}
+
+/* Mobile */
+
+/*=========================
+Mobile Responsive Table
+==========================*/
+
+@media (max-width:768px){
+
+.table-responsive{
+    overflow:visible;
+    box-shadow:none;
+}
+
+.mandatory-table,
+.mandatory-table tbody,
+.mandatory-table tr,
+.mandatory-table td{
+    display:block;
+    width:100%;
+}
+
+.mandatory-table thead{
+    display:none;
+}
+
+.mandatory-table{
+    background:transparent;
+}
+
+.mandatory-table tr{
+    background:#fff;
+    margin-bottom:20px;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    border-left:5px solid #052f5f;
+}
+
+.mandatory-table td{
+    text-align:right;
+    padding:14px 18px;
+    position:relative;
+    border-bottom:1px solid #eee;
+}
+
+.mandatory-table td:last-child{
+    border-bottom:none;
+}
+
+.mandatory-table td::before{
+    content:attr(data-label);
+    position:absolute;
+    left:18px;
+    font-weight:700;
+    color:#0d47a1;
+    text-align:left;
+}
+
+.mandatory-table a{
+    padding:8px 18px;
+    font-size:13px;
+}
+
+.section-title h2{
+    font-size:28px;
+}
+
+.section-title p{
+    font-size:15px;
+}
+
+}
